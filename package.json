@@ -1,0 +1,63 @@
+{
+  "name": "testapp",
+  "version": "0.1.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@chakra-ui/react": "^2.2.1",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "babel-loader": "^8.2.5",
+    "framer-motion": "^6.4.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-scripts": "5.0.1",
+    "terser-webpack-plugin": "^5.3.3",
+    "web-vitals": "^2.1.4",
+    "webpack-dev-server": "^4.0.0",
+    "zustand": "^4.0.0-rc.1"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start webpack": "webpack serve",
+    "start": "react-scripts start",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "chakra-paginator": "^0.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "react-router-dom": "^6.3.0",
+    "terser-brunch": "^4.1.0",
+    "webpack": "^5.5.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
